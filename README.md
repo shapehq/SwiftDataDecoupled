@@ -3,6 +3,12 @@ Example project showing how the data and view layers can be decoupled when using
 
 ![](https://github.com/shapehq/SwiftDataDecoupled/blob/main/preview.gif?raw=true)
 
+## Table of Contents
+
+- [✨ Motivation](#-motivation)
+- [🧪 Solution](#-solution)
+- [🤔 Drawbacks](#-drawbacks)
+
 ## ✨ Motivation
 
 During WWDC23 Apple announced [SwiftData](https://developer.apple.com/documentation/swiftdata), a framework for quickly adding persistence to iOS apps. SwiftData builds on top of [Core Data](https://developer.apple.com/documentation/coredata/) but moves schema definition to plain Swift files. Consider the following model which defines a model that can be persisted using SwiftData.
