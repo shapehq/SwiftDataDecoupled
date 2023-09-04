@@ -92,7 +92,7 @@ struct EntryListView<EntryRepositoryType: EntryRepository>: View {
 }
 ```
 
-Lastly, we'll need to inject an implementation of EntryRepository into our view. We do this using Dependency Injection by passing the repository to the view through its constructor.
+Lastly, we'll need to inject an implementation of EntryRepository into our view. We do this using Dependency Injection by passing the repository to the view through its constructor. Our DBSwiftData target exposes a SwiftDataDB type that configures a the SwiftData stack, effectively creating an instance of [ModelContainer](https://developer.apple.com/documentation/swiftdata/modelcontainer) and exposing it.
 
 ```swift
 @main
