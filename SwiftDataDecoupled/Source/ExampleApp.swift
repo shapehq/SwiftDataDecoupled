@@ -1,5 +1,4 @@
 import DBSwiftData
-import SwiftData
 import SwiftUI
 
 @main

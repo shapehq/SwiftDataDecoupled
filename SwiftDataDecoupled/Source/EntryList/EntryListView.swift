@@ -1,5 +1,4 @@
 import DB
-import SwiftData
 import SwiftUI
 
 struct EntryListView<EntryRepositoryType: EntryRepository>: View {
