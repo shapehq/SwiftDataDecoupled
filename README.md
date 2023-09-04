@@ -14,7 +14,7 @@ final class EntryModel {
     var isEnabled = false
 
     public init() {
-        self.date = Date()
+        date = Date()
     }
 }
 ```
